@@ -1,6 +1,6 @@
 sources:
   - name: source
-    database: workspace
+    database: "{{ target.catalog }}"
     schema: default
     tables:
       - name: fact_sales
