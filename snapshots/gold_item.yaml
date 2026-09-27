@@ -1,0 +1,10 @@
+snapshots:
+  - name: gold_item
+    relation: ref('gold_current_item')
+    config:
+      database: workspace
+      schema: gold
+      unique_key: id
+      strategy: timestamp
+      updated_at: updated_at
+      dbt_valid_to_current: null
